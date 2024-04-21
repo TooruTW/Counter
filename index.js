@@ -26,8 +26,8 @@ document.getElementById('countReset').addEventListener("click", button => {
     document.getElementById('countDecress').innerHTML = `decress ${percount}`
 })
 document.getElementById('countDecress').addEventListener("click", button => {
-    if(percount <= 1``) return
+    if(percount <= 1) return
     percount = percount -= 1;
     document.getElementById('countIncress').innerHTML = `incress ${percount}`
     document.getElementById('countDecress').innerHTML = `decress ${percount}`
-})
+})``
