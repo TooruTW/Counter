@@ -30,4 +30,6 @@ document.getElementById('countDecress').addEventListener("click", button => {
     percount = percount -= 1;
     document.getElementById('countIncress').innerHTML = `incress ${percount}`
     document.getElementById('countDecress').innerHTML = `decress ${percount}`
-})``
+})
+
+
