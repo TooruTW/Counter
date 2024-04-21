@@ -1,0 +1,29 @@
+.container{
+    margin: 150px;
+    height: 50vh;
+    font-family:'Courier New', Courier, monospace;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.output{
+    font-size: x-large;
+}
+
+.buttons{
+    width: 40vw;
+}
+
+.buttons>button{
+    font-size: medium;
+    height: 40px;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 30%;
+}
+.buttons>button:active{
+    background-color: whitesmoke;
+    font-size: large;
+}
